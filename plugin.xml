@@ -67,16 +67,17 @@
 				<action android:name="android.intent.action.VIEW" />
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.BROWSABLE" />
-				<data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_PATH_PREFIX" />
-				<data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_2_PATH_PREFIX" />
-				<data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_3_PATH_PREFIX" />
-				<data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_4_PATH_PREFIX" />
-				<data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_5_PATH_PREFIX" />
-				<data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_6_PATH_PREFIX" />
-				<data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_7_PATH_PREFIX" />
-				<data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_8_PATH_PREFIX" />
-				<data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_9_PATH_PREFIX" />
-				<data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:pathPrefix="$ANDROID_10_PATH_PREFIX" />
+				<data android:scheme="$DEEPLINK_SCHEME" />
+				<data android:host="$DEEPLINK_HOST" /> 
+				<data android:pathPrefix="$ANDROID_PATH_PREFIX" />
+				<data android:pathPrefix="$ANDROID_2_PATH_PREFIX" />
+				<data android:pathPrefix="$ANDROID_3_PATH_PREFIX" />
+				<data android:pathPrefix="$ANDROID_4_PATH_PREFIX" />
+				<data android:pathPrefix="$ANDROID_5_PATH_PREFIX" />
+				<data android:pathPrefix="$ANDROID_6_PATH_PREFIX" />
+				<data android:pathPrefix="$ANDROID_7_PATH_PREFIX" />
+				<data android:pathPrefix="$ANDROID_8_PATH_PREFIX" />
+				<data android:pathPrefix="$ANDROID_9_PATH_PREFIX" />
 			</intent-filter>
 		</config-file>
 
